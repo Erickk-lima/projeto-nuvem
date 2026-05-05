@@ -14,7 +14,7 @@ app.get('/sobre', (req, res) => {
 
 
 app.get('/contato', (req, res) => {
-    res.send('<h1>Contato</h1><p>Email: contato@exemplo.com</p>');
+    res.send('<h1>Coato</h1><p>Email: contato@exemplo.com</p>');
 });
 
 app.listen(port, () => {
